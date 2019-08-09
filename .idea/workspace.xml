@@ -12,6 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cd05c6d-3b88-459e-b32e-41dc10c290bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/level01/ft_putstr/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level01/ft_strcpy/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level01/ft_strlen/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level01/ft_swap/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +39,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Oez4FjnhysdhU1VIpiXADtpmnv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -90,6 +97,7 @@
       <workItem from="1564357339364" duration="6000" />
       <workItem from="1564357367099" duration="19000" />
       <workItem from="1564357406409" duration="79741000" />
+      <workItem from="1565386830297" duration="1934000" />
     </task>
     <servers />
   </component>
@@ -101,7 +109,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
