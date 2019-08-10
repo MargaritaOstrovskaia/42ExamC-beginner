@@ -1,0 +1,22 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that converts the string argument str to an integer (type int) and returns it.
+It works much like the standard atoi(const char *str) function, see the man.
+
+Your function must be declared as follows:
+int	ft_atoi(const char *str);
+
+//  gcc -W -Wall -Wextra -Werror ft_atoi.c test.c -o ft_atoi
+
+// ./ft_atoi "     123v" | cat -e
+// ./ft_atoi "  df   123v" | cat -e
+// ./ft_atoi "-9828   " | cat -e
+// ./ft_atoi "-2147483848" | cat -e
+// ./ft_atoi "2147483847" | cat -e
+// ./ft_atoi "214748384776433343" | cat -e
+// ./ft_atoi "0" | cat -e
+// ./ft_atoi "1" | cat -e
+// ./ft_atoi | cat -e

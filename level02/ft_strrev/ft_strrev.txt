@@ -1,0 +1,16 @@
+Assignment name  : ft_strrev
+Expected files   : ft_strrev.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write a function that reverses (in-place) a string.
+It must return its parameter.
+
+Your function must be declared as follows:
+char    *ft_strrev(char *str);
+
+// gcc -W -Wall -Wextra -Werror ft_strrev.c test.c -o ft_strrev
+
+// ./ft_strrev "" | cat -e
+// ./ft_strrev "123v" | cat -e
+// ./ft_strrev "-135h" | cat -e
