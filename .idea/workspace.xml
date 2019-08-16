@@ -12,13 +12,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cd05c6d-3b88-459e-b32e-41dc10c290bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level03/ft_atoi_base/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level03/ft_list_size/ft_create_elem.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level03/ft_list_size/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level03/ft_range/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level03/ft_rrange/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level03/lcm/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/ft_itoa/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/ft_list_foreach/print.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/ft_list_foreach/push.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/ft_list_remove_if/print.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/ft_split/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/rostring/rostring.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/sort_int_tab/sort_int_tab.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/sort_int_tab/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/sort_list/cmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level04/sort_list/sort_list.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/42exam" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42exam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/42exam.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/42exam.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/42exam.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level03/ft_list_size/ft_create_elem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level03/ft_list_size/ft_list_size" beforeDir="false" afterPath="$PROJECT_DIR$/level03/ft_list_size/ft_list_size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level03/ft_list_size/ft_list_size.txt" beforeDir="false" afterPath="$PROJECT_DIR$/level03/ft_list_size/ft_list_size.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level03/ft_list_size/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/level03/ft_list_size/test.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +83,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level04/sort_int_tab" />
+      <recent name="$PROJECT_DIR$/level04/rostring" />
       <recent name="$PROJECT_DIR$/level00/ft_print_numbers" />
       <recent name="$PROJECT_DIR$/level00/ft_countdown" />
       <recent name="$PROJECT_DIR$/level00/only_z" />
-      <recent name="$PROJECT_DIR$/level00/only_a" />
-      <recent name="$PROJECT_DIR$/level00/hello" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +124,7 @@
       <workItem from="1564357367099" duration="19000" />
       <workItem from="1564357406409" duration="79741000" />
       <workItem from="1565386830297" duration="9093000" />
-      <workItem from="1565651579933" duration="3165000" />
+      <workItem from="1565651579933" duration="30312000" />
     </task>
     <servers />
   </component>

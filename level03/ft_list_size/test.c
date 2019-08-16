@@ -2,33 +2,25 @@
 #include <stdlib.h>
 #include "ft_list.h"
 
-t_list  *ft_create_elem(void *data);
+void    push(t_list **begin_list, void *new_data, size_t data_size);
 int     ft_list_size(t_list *begin_list);
 
 int     main(int argc, char **argv)
 {
-    int i;
-    int n;
-    t_list *begin_list;
-    t_list *element;
+    int     i;
+    int     arr[255] = {0};
+    t_list  *begin_list = NULL;
 
     if (argc > 1)
     {
-        i = 1;
-        while (argv[i])
+        i = 0;
+        while (i + 1 < argc)
         {
-            n = atoi(argv[i]);
-            if (begin_list)
-            {
-                element = ft_create_elem(&n);
-                element->next = begin_list;
-                begin_list = element;
-            }
-            else
-                begin_list = ft_create_elem(&n);
+            arr[i] = atoi(argv[i + 1]);
+            push(&begin_list, &arr[i], sizeof(int));
             i++;
         }
-        printf("size = %d\n", ft_list_size(begin_list));
     }
+    printf("size = %d\n", ft_list_size(begin_list));
     return (0);
 }

@@ -78,7 +78,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/margo/CLionProjects/42exam/ft_atoi_base.c">
+		<Unit filename="/Users/margo/CLionProjects/42exam/level04/sort_list/cmp.c">
+			<Option target="42exam"/>
+		</Unit>
+		<Unit filename="/Users/margo/CLionProjects/42exam/level04/sort_list/print.c">
+			<Option target="42exam"/>
+		</Unit>
+		<Unit filename="/Users/margo/CLionProjects/42exam/level04/sort_list/push.c">
+			<Option target="42exam"/>
+		</Unit>
+		<Unit filename="/Users/margo/CLionProjects/42exam/level04/sort_list/sort_list.c">
+			<Option target="42exam"/>
+		</Unit>
+		<Unit filename="/Users/margo/CLionProjects/42exam/level04/sort_list/test.c">
 			<Option target="42exam"/>
 		</Unit>
 		<Unit filename="/Users/margo/CLionProjects/42exam/CMakeLists.txt">

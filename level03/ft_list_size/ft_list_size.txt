@@ -15,5 +15,5 @@ typedef struct    s_list
     void          *data;
 }                 t_list;
 
-// gcc -W -Wall -Wextra -Werror ft_create_elem.c ft_list_size.c test.c -o ft_list_size
+// gcc -W -Wall -Wextra -Werror push.c ft_list_size.c test.c -o ft_list_size
 // ./ft_list_size "3" "-1" "255"

@@ -57,30 +57,90 @@ include CMakeFiles/42exam.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/42exam.dir/flags.make
 
-CMakeFiles/42exam.dir/ft_atoi_base.c.o: CMakeFiles/42exam.dir/flags.make
-CMakeFiles/42exam.dir/ft_atoi_base.c.o: ../ft_atoi_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/42exam.dir/ft_atoi_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/ft_atoi_base.c.o   -c /Users/margo/CLionProjects/42exam/ft_atoi_base.c
+CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o: CMakeFiles/42exam.dir/flags.make
+CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o: ../level04/sort_list/cmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o   -c /Users/margo/CLionProjects/42exam/level04/sort_list/cmp.c
 
-CMakeFiles/42exam.dir/ft_atoi_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/ft_atoi_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/ft_atoi_base.c > CMakeFiles/42exam.dir/ft_atoi_base.c.i
+CMakeFiles/42exam.dir/level04/sort_list/cmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/level04/sort_list/cmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/level04/sort_list/cmp.c > CMakeFiles/42exam.dir/level04/sort_list/cmp.c.i
 
-CMakeFiles/42exam.dir/ft_atoi_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/ft_atoi_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/ft_atoi_base.c -o CMakeFiles/42exam.dir/ft_atoi_base.c.s
+CMakeFiles/42exam.dir/level04/sort_list/cmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/level04/sort_list/cmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/level04/sort_list/cmp.c -o CMakeFiles/42exam.dir/level04/sort_list/cmp.c.s
+
+CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o: CMakeFiles/42exam.dir/flags.make
+CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o: ../level04/sort_list/sort_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o   -c /Users/margo/CLionProjects/42exam/level04/sort_list/sort_list.c
+
+CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/level04/sort_list/sort_list.c > CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.i
+
+CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/level04/sort_list/sort_list.c -o CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.s
+
+CMakeFiles/42exam.dir/level04/sort_list/print.c.o: CMakeFiles/42exam.dir/flags.make
+CMakeFiles/42exam.dir/level04/sort_list/print.c.o: ../level04/sort_list/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/42exam.dir/level04/sort_list/print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/level04/sort_list/print.c.o   -c /Users/margo/CLionProjects/42exam/level04/sort_list/print.c
+
+CMakeFiles/42exam.dir/level04/sort_list/print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/level04/sort_list/print.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/level04/sort_list/print.c > CMakeFiles/42exam.dir/level04/sort_list/print.c.i
+
+CMakeFiles/42exam.dir/level04/sort_list/print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/level04/sort_list/print.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/level04/sort_list/print.c -o CMakeFiles/42exam.dir/level04/sort_list/print.c.s
+
+CMakeFiles/42exam.dir/level04/sort_list/push.c.o: CMakeFiles/42exam.dir/flags.make
+CMakeFiles/42exam.dir/level04/sort_list/push.c.o: ../level04/sort_list/push.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/42exam.dir/level04/sort_list/push.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/level04/sort_list/push.c.o   -c /Users/margo/CLionProjects/42exam/level04/sort_list/push.c
+
+CMakeFiles/42exam.dir/level04/sort_list/push.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/level04/sort_list/push.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/level04/sort_list/push.c > CMakeFiles/42exam.dir/level04/sort_list/push.c.i
+
+CMakeFiles/42exam.dir/level04/sort_list/push.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/level04/sort_list/push.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/level04/sort_list/push.c -o CMakeFiles/42exam.dir/level04/sort_list/push.c.s
+
+CMakeFiles/42exam.dir/level04/sort_list/test.c.o: CMakeFiles/42exam.dir/flags.make
+CMakeFiles/42exam.dir/level04/sort_list/test.c.o: ../level04/sort_list/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/42exam.dir/level04/sort_list/test.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42exam.dir/level04/sort_list/test.c.o   -c /Users/margo/CLionProjects/42exam/level04/sort_list/test.c
+
+CMakeFiles/42exam.dir/level04/sort_list/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42exam.dir/level04/sort_list/test.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/margo/CLionProjects/42exam/level04/sort_list/test.c > CMakeFiles/42exam.dir/level04/sort_list/test.c.i
+
+CMakeFiles/42exam.dir/level04/sort_list/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42exam.dir/level04/sort_list/test.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/margo/CLionProjects/42exam/level04/sort_list/test.c -o CMakeFiles/42exam.dir/level04/sort_list/test.c.s
 
 # Object files for target 42exam
 42exam_OBJECTS = \
-"CMakeFiles/42exam.dir/ft_atoi_base.c.o"
+"CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o" \
+"CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o" \
+"CMakeFiles/42exam.dir/level04/sort_list/print.c.o" \
+"CMakeFiles/42exam.dir/level04/sort_list/push.c.o" \
+"CMakeFiles/42exam.dir/level04/sort_list/test.c.o"
 
 # External object files for target 42exam
 42exam_EXTERNAL_OBJECTS =
 
-42exam: CMakeFiles/42exam.dir/ft_atoi_base.c.o
+42exam: CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o
+42exam: CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o
+42exam: CMakeFiles/42exam.dir/level04/sort_list/print.c.o
+42exam: CMakeFiles/42exam.dir/level04/sort_list/push.c.o
+42exam: CMakeFiles/42exam.dir/level04/sort_list/test.c.o
 42exam: CMakeFiles/42exam.dir/build.make
 42exam: CMakeFiles/42exam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 42exam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable 42exam"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/42exam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

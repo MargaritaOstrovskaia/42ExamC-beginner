@@ -123,32 +123,140 @@ depend:
 	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/build
 .PHONY : 42exam/fast
 
-ft_atoi_base.o: ft_atoi_base.c.o
+level04/sort_list/cmp.o: level04/sort_list/cmp.c.o
 
-.PHONY : ft_atoi_base.o
+.PHONY : level04/sort_list/cmp.o
 
 # target to build an object file
-ft_atoi_base.c.o:
-	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/ft_atoi_base.c.o
-.PHONY : ft_atoi_base.c.o
+level04/sort_list/cmp.c.o:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o
+.PHONY : level04/sort_list/cmp.c.o
 
-ft_atoi_base.i: ft_atoi_base.c.i
+level04/sort_list/cmp.i: level04/sort_list/cmp.c.i
 
-.PHONY : ft_atoi_base.i
+.PHONY : level04/sort_list/cmp.i
 
 # target to preprocess a source file
-ft_atoi_base.c.i:
-	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/ft_atoi_base.c.i
-.PHONY : ft_atoi_base.c.i
+level04/sort_list/cmp.c.i:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/cmp.c.i
+.PHONY : level04/sort_list/cmp.c.i
 
-ft_atoi_base.s: ft_atoi_base.c.s
+level04/sort_list/cmp.s: level04/sort_list/cmp.c.s
 
-.PHONY : ft_atoi_base.s
+.PHONY : level04/sort_list/cmp.s
 
 # target to generate assembly for a file
-ft_atoi_base.c.s:
-	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/ft_atoi_base.c.s
-.PHONY : ft_atoi_base.c.s
+level04/sort_list/cmp.c.s:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/cmp.c.s
+.PHONY : level04/sort_list/cmp.c.s
+
+level04/sort_list/print.o: level04/sort_list/print.c.o
+
+.PHONY : level04/sort_list/print.o
+
+# target to build an object file
+level04/sort_list/print.c.o:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/print.c.o
+.PHONY : level04/sort_list/print.c.o
+
+level04/sort_list/print.i: level04/sort_list/print.c.i
+
+.PHONY : level04/sort_list/print.i
+
+# target to preprocess a source file
+level04/sort_list/print.c.i:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/print.c.i
+.PHONY : level04/sort_list/print.c.i
+
+level04/sort_list/print.s: level04/sort_list/print.c.s
+
+.PHONY : level04/sort_list/print.s
+
+# target to generate assembly for a file
+level04/sort_list/print.c.s:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/print.c.s
+.PHONY : level04/sort_list/print.c.s
+
+level04/sort_list/push.o: level04/sort_list/push.c.o
+
+.PHONY : level04/sort_list/push.o
+
+# target to build an object file
+level04/sort_list/push.c.o:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/push.c.o
+.PHONY : level04/sort_list/push.c.o
+
+level04/sort_list/push.i: level04/sort_list/push.c.i
+
+.PHONY : level04/sort_list/push.i
+
+# target to preprocess a source file
+level04/sort_list/push.c.i:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/push.c.i
+.PHONY : level04/sort_list/push.c.i
+
+level04/sort_list/push.s: level04/sort_list/push.c.s
+
+.PHONY : level04/sort_list/push.s
+
+# target to generate assembly for a file
+level04/sort_list/push.c.s:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/push.c.s
+.PHONY : level04/sort_list/push.c.s
+
+level04/sort_list/sort_list.o: level04/sort_list/sort_list.c.o
+
+.PHONY : level04/sort_list/sort_list.o
+
+# target to build an object file
+level04/sort_list/sort_list.c.o:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o
+.PHONY : level04/sort_list/sort_list.c.o
+
+level04/sort_list/sort_list.i: level04/sort_list/sort_list.c.i
+
+.PHONY : level04/sort_list/sort_list.i
+
+# target to preprocess a source file
+level04/sort_list/sort_list.c.i:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.i
+.PHONY : level04/sort_list/sort_list.c.i
+
+level04/sort_list/sort_list.s: level04/sort_list/sort_list.c.s
+
+.PHONY : level04/sort_list/sort_list.s
+
+# target to generate assembly for a file
+level04/sort_list/sort_list.c.s:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.s
+.PHONY : level04/sort_list/sort_list.c.s
+
+level04/sort_list/test.o: level04/sort_list/test.c.o
+
+.PHONY : level04/sort_list/test.o
+
+# target to build an object file
+level04/sort_list/test.c.o:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/test.c.o
+.PHONY : level04/sort_list/test.c.o
+
+level04/sort_list/test.i: level04/sort_list/test.c.i
+
+.PHONY : level04/sort_list/test.i
+
+# target to preprocess a source file
+level04/sort_list/test.c.i:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/test.c.i
+.PHONY : level04/sort_list/test.c.i
+
+level04/sort_list/test.s: level04/sort_list/test.c.s
+
+.PHONY : level04/sort_list/test.s
+
+# target to generate assembly for a file
+level04/sort_list/test.c.s:
+	$(MAKE) -f CMakeFiles/42exam.dir/build.make CMakeFiles/42exam.dir/level04/sort_list/test.c.s
+.PHONY : level04/sort_list/test.c.s
 
 # Help Target
 help:
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 42exam"
-	@echo "... ft_atoi_base.o"
-	@echo "... ft_atoi_base.i"
-	@echo "... ft_atoi_base.s"
+	@echo "... level04/sort_list/cmp.o"
+	@echo "... level04/sort_list/cmp.i"
+	@echo "... level04/sort_list/cmp.s"
+	@echo "... level04/sort_list/print.o"
+	@echo "... level04/sort_list/print.i"
+	@echo "... level04/sort_list/print.s"
+	@echo "... level04/sort_list/push.o"
+	@echo "... level04/sort_list/push.i"
+	@echo "... level04/sort_list/push.s"
+	@echo "... level04/sort_list/sort_list.o"
+	@echo "... level04/sort_list/sort_list.i"
+	@echo "... level04/sort_list/sort_list.s"
+	@echo "... level04/sort_list/test.o"
+	@echo "... level04/sort_list/test.i"
+	@echo "... level04/sort_list/test.s"
 .PHONY : help
 
 

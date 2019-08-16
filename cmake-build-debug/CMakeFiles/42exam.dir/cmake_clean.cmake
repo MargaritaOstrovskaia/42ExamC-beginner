@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/42exam.dir/ft_atoi_base.c.o"
+  "CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o"
+  "CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o"
+  "CMakeFiles/42exam.dir/level04/sort_list/print.c.o"
+  "CMakeFiles/42exam.dir/level04/sort_list/push.c.o"
+  "CMakeFiles/42exam.dir/level04/sort_list/test.c.o"
   "42exam.pdb"
   "42exam"
 )

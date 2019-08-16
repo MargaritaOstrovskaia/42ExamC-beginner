@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/margo/CLionProjects/42exam/ft_atoi_base.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/ft_atoi_base.c.o"
+  "/Users/margo/CLionProjects/42exam/level04/sort_list/cmp.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/level04/sort_list/cmp.c.o"
+  "/Users/margo/CLionProjects/42exam/level04/sort_list/print.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/level04/sort_list/print.c.o"
+  "/Users/margo/CLionProjects/42exam/level04/sort_list/push.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/level04/sort_list/push.c.o"
+  "/Users/margo/CLionProjects/42exam/level04/sort_list/sort_list.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/level04/sort_list/sort_list.c.o"
+  "/Users/margo/CLionProjects/42exam/level04/sort_list/test.c" "/Users/margo/CLionProjects/42exam/cmake-build-debug/CMakeFiles/42exam.dir/level04/sort_list/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
