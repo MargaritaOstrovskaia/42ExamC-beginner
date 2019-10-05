@@ -1,2 +1,0 @@
-/Users/margo/CLionProjects/42exam/cmake-build-debug/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/margo/CLionProjects/42exam/cmake-build-debug/cmake-build-debug/CMakeFiles/edit_cache.dir
