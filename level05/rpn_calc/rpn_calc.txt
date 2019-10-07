@@ -40,7 +40,7 @@ Or:
 6 4 -
 2
 
-Examples:
+Examples: gcc -W -Wall -Wextra -Werror rpn_calc.c -o rpn_calc
 
 $> ./rpn_calc "1 2 * 3 * 4 +" | cat -e
 10$
