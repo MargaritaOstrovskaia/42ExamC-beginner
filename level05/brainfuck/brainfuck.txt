@@ -21,10 +21,9 @@ Every operator consists of a single character :
 
 Any other character is a comment.
 
-Examples:
+Examples: gcc -W -Wall -Wextra -Werror brainfuck.c -o brainfuck
 
-$>./brainfuck "++++++++++[>+++++++>++++++++++>+++>+<<<<-]
->++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." | cat -e
+$>./brainfuck "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." | cat -e
 Hello World!$
 $>./brainfuck "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>--------.>+++++.>." | cat -e
 Hi$

@@ -1,4 +1,4 @@
-int is_piece(char val)
+ int is_piece(char val)
 {
     if (val == "P" || val == "Q" || val == "B" || val == "K")
         return (1);

@@ -22,7 +22,9 @@ int	main(void)
 	print_memory(tab, sizeof(tab));
 	return (0);
 }
-$> gcc -Wall -Wall -Werror main.c print_memory.c && ./a.out | cat -e
+
+$> gcc -Wall -Wall -Werror test.c print_memory.c -o print_memory
+$> ./print_memory | cat -e
 0000 0000 1700 0000 9600 0000 ff00 0000 ................$
 0c00 0000 1000 0000 1500 0000 2a00 0000 ............*...$
 0000 0000 0000 0000                     ........$

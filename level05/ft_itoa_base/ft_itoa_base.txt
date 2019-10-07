@@ -18,3 +18,5 @@ minus sign (-). With any other base, value is always considered unsigned.
 Your function must be declared as follows:
 
 char	*ft_itoa_base(int value, int base);
+
+// gcc -Wall -Wextra -Werror ft_itoa_base.c test.c -o ft_itoa_base

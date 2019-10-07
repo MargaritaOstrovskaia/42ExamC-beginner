@@ -17,7 +17,7 @@ correctly bracketed string.
 
 If there is no arguments, the program must print only a newline.
 
-Examples :
+Examples: gcc -Wall -Wall -Werror brackets.c -o brackets
 
 $> ./brackets '(johndoe)' | cat -e
 OK$

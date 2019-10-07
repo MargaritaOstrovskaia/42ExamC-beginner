@@ -26,7 +26,7 @@ void    print_char(const unsigned char *addr, size_t size)
 
     while (i < 16 && i < size)
     {
-        if (addr[i] >= 32 && addr <= 127)
+        if (addr[i] >= 32 && addr[i] <= 127)
             write(1, &addr[i], 1);
         else
             write(1, ".", 1);
@@ -46,12 +46,3 @@ void    print_memory(const void *addr, size_t size)
         i += 16;
     }
 }
-/*
-int     main(void)
-{
-    int tab[10] = {0, 23, 150, 255, 12, 16, 42, 103};
-
-    print_memory(tab, sizeof(tab));
-    return (0);
-}
-*/

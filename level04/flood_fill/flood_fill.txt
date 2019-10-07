@@ -70,7 +70,8 @@ int main(void)
 	return (0);
 }
 
-$> gcc flood_fill.c test.c -o test; ./test
+// gcc flood_fill.c test.c -o test
+$> ./test
 11111111
 10001001
 10010001
