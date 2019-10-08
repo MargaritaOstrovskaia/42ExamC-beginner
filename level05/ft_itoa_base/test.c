@@ -18,7 +18,7 @@ int	main(void)
     test = 1;
     printf("%s ~ %d\n", ft_itoa_base(test, base), test);
     test = INT_MAX;
-    printf("%s\n%d\n", ft_itoa_base(test, base), test);
+    printf("%s ~ %d\n", ft_itoa_base(test, base), test);
 
     base = 8;
     test = 28;

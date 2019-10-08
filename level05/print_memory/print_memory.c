@@ -22,7 +22,7 @@ void    print_hex(const unsigned char *addr, size_t size)
 
 void    print_char(const unsigned char *addr, size_t size)
 {
-    int i = 0;
+    size_t i = 0;
 
     while (i < 16 && i < size)
     {

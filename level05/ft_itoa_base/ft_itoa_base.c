@@ -20,7 +20,7 @@ int     get_size(int value, int base)
     return (size);
 }
 
-char	*ft_itoa_base(int value, int base)
+char    *ft_itoa_base(int value, int base)
 {
     char    *hex = "0123456789ABCDEF";
     int     sign = 1;
@@ -39,7 +39,7 @@ char	*ft_itoa_base(int value, int base)
     {
         s[size] = hex[n % base * sign];
         n = n / base;
-        if (size == 1 && value < 0)
+        if (size == 1 && value < 0 && base == 10)
             break ;
     }
     return (s);
