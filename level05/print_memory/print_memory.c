@@ -26,7 +26,7 @@ void    print_char(const unsigned char *addr, size_t size)
 
     while (i < 16 && i < size)
     {
-        if (addr[i] >= 32 && addr[i] <= 127)
+        if (addr[i] >= 32 && addr[i] <= 126)
             write(1, &addr[i], 1);
         else
             write(1, ".", 1);
