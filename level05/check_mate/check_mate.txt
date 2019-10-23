@@ -23,12 +23,12 @@ followed by a newline, otherwise you will print "Fail" followed by a newline.
 
 If there is no arguments, the program will only print a newline.
 
-Examples: gcc -W -Wall -Wextra -Werror check_mate.c main.c -o chessmate
+Examples: gcc -W -Wall -Wextra -Werror check_mate.c -o chessmate
 
 $> ./chessmate '..' '.K' | cat -e
 Fail$
 
-$> ./check_mate 'R...' '.K..' '..P.' '....' | cat -e
+$> ./chessmate 'R...' '.K..' '..P.' '....' | cat -e
 Success$
 
 $> ./chessmate 'R...' 'iheK' '....' 'jeiR' | cat -e
